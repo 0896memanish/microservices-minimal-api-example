@@ -1,0 +1,6 @@
+﻿services:
+  exampleminimalapi:
+    image: exampleminimalapi
+    build:
+      context: .
+      dockerfile: ExampleMinimalAPI/Dockerfile
